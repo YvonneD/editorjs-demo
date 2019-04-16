@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Satisfy");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Satisfy", cursive;
+  font-size: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  width: 70vw;
+  background: #305f72;
+  float: left;
+  min-height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  #editorjs {
+    color: #f1d1b5;
+  }
+  #saveButton {
+    position: fixed;
+    top: 2rem;
+    left: 2.6rem;
+    -moz-box-shadow: 3px 4px 0px 0px #4c97b5;
+    -webkit-box-shadow: 3px 4px 0px 0px #4c97b5;
+    box-shadow: 3px 4px 0px 0px #4c97b5;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0.05, #f0b7a4),
+      color-stop(1, #f1d1b5)
+    );
+    background: -moz-linear-gradient(top, #f0b7a4 5%, #f1d1b5 100%);
+    background: -webkit-linear-gradient(top, #f0b7a4 5%, #f1d1b5 100%);
+    background: -o-linear-gradient(top, #f0b7a4 5%, #f1d1b5 100%);
+    background: -ms-linear-gradient(top, #f0b7a4 5%, #f1d1b5 100%);
+    background: linear-gradient(to bottom, #f0b7a4 5%, #f1d1b5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0b7a4', endColorstr='#f1d1b5',GradientType=0);
+    background-color: #f0b7a4;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #4b90ab;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Trebuchet MS;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 12px 44px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3e8aa8;
+    &:hover {
+      background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.05, #f1d1b5),
+        color-stop(1, #f0b7a4)
+      );
+      background: -moz-linear-gradient(top, #f1d1b5 5%, #f0b7a4 100%);
+      background: -webkit-linear-gradient(top, #f1d1b5 5%, #f0b7a4 100%);
+      background: -o-linear-gradient(top, #f1d1b5 5%, #f0b7a4 100%);
+      background: -ms-linear-gradient(top, #f1d1b5 5%, #f0b7a4 100%);
+      background: linear-gradient(to bottom, #f1d1b5 5%, #f0b7a4 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1d1b5', endColorstr='#f0b7a4',GradientType=0);
+      background-color: #f1d1b5;
+    }
+  }
+}
+.right {
+  width: 30vw;
+  min-height: 120vh;
+  padding: 3rem 5rem;
+  background: #f0b7a4;
+  float: right;
+  #output {
+    border: 3px dotted #f18c8e;
+    padding: 3rem;
+    text-align: center;
+  }
+}

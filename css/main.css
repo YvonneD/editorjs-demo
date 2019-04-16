@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Satisfy");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Satisfy", cursive;
+  font-size: 2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left {
+  width: 70vw;
+  background: #305f72;
+  float: left;
+  min-height: 120vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.left #editorjs {
+  color: #f1d1b5;
+}
+
+.left #saveButton {
+  position: fixed;
+  top: 2rem;
+  left: 2.6rem;
+  -webkit-box-shadow: 3px 4px 0px 0px #4c97b5;
+  box-shadow: 3px 4px 0px 0px #4c97b5;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f0b7a4), to(#f1d1b5));
+  background: linear-gradient(to bottom, #f0b7a4 5%, #f1d1b5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0b7a4', endColorstr='#f1d1b5',GradientType=0);
+  background-color: #f0b7a4;
+  border-radius: 5px;
+  border: 1px solid #4b90ab;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Trebuchet MS;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 12px 44px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3e8aa8;
+}
+
+.left #saveButton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f1d1b5), to(#f0b7a4));
+  background: linear-gradient(to bottom, #f1d1b5 5%, #f0b7a4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1d1b5', endColorstr='#f0b7a4',GradientType=0);
+  background-color: #f1d1b5;
+}
+
+.right {
+  width: 30vw;
+  min-height: 120vh;
+  padding: 3rem 5rem;
+  background: #f0b7a4;
+  float: right;
+}
+
+.right #output {
+  border: 3px dotted #f18c8e;
+  padding: 3rem;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
